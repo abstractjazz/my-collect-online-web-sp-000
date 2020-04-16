@@ -1,9 +1,9 @@
 def my_collect(array)
-i = 0
+item = 0
 collection = []
-while i < array.length
-collection<<yield(array[i])
-i += 1
+while item < array.length
+collection<<yield(array[item])
+item += 1
   end
   collection
 end
